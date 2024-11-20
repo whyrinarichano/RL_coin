@@ -1,0 +1,950 @@
+{
+  "build": "h0253a28_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 openblas",
+    "libgcc-ng >=7.2.0",
+    "libopenblas >=0.2.20,<0.2.21.0a0",
+    "libstdcxx-ng >=7.2.0",
+    "metis >=5.1.0,<6.0a0",
+    "tbb >=2018.0.4,<2019.0a0"
+  ],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/suitesparse-5.2.0-h0253a28_0",
+  "files": [
+    "include/RBio.h",
+    "include/SuiteSparseQR.hpp",
+    "include/SuiteSparseQR_C.h",
+    "include/SuiteSparseQR_definitions.h",
+    "include/SuiteSparse_config.h",
+    "include/amd.h",
+    "include/btf.h",
+    "include/camd.h",
+    "include/ccolamd.h",
+    "include/cholmod.h",
+    "include/cholmod_blas.h",
+    "include/cholmod_camd.h",
+    "include/cholmod_check.h",
+    "include/cholmod_cholesky.h",
+    "include/cholmod_complexity.h",
+    "include/cholmod_config.h",
+    "include/cholmod_core.h",
+    "include/cholmod_function.h",
+    "include/cholmod_gpu.h",
+    "include/cholmod_gpu_kernels.h",
+    "include/cholmod_io64.h",
+    "include/cholmod_matrixops.h",
+    "include/cholmod_modify.h",
+    "include/cholmod_partition.h",
+    "include/cholmod_supernodal.h",
+    "include/cholmod_template.h",
+    "include/colamd.h",
+    "include/cs.h",
+    "include/klu.h",
+    "include/ldl.h",
+    "include/spqr.hpp",
+    "include/umfpack.h",
+    "include/umfpack_col_to_triplet.h",
+    "include/umfpack_defaults.h",
+    "include/umfpack_free_numeric.h",
+    "include/umfpack_free_symbolic.h",
+    "include/umfpack_get_determinant.h",
+    "include/umfpack_get_lunz.h",
+    "include/umfpack_get_numeric.h",
+    "include/umfpack_get_symbolic.h",
+    "include/umfpack_global.h",
+    "include/umfpack_load_numeric.h",
+    "include/umfpack_load_symbolic.h",
+    "include/umfpack_numeric.h",
+    "include/umfpack_qsymbolic.h",
+    "include/umfpack_report_control.h",
+    "include/umfpack_report_info.h",
+    "include/umfpack_report_matrix.h",
+    "include/umfpack_report_numeric.h",
+    "include/umfpack_report_perm.h",
+    "include/umfpack_report_status.h",
+    "include/umfpack_report_symbolic.h",
+    "include/umfpack_report_triplet.h",
+    "include/umfpack_report_vector.h",
+    "include/umfpack_save_numeric.h",
+    "include/umfpack_save_symbolic.h",
+    "include/umfpack_scale.h",
+    "include/umfpack_solve.h",
+    "include/umfpack_symbolic.h",
+    "include/umfpack_tictoc.h",
+    "include/umfpack_timer.h",
+    "include/umfpack_transpose.h",
+    "include/umfpack_triplet_to_col.h",
+    "include/umfpack_wsolve.h",
+    "lib/libamd.a",
+    "lib/libamd.so",
+    "lib/libamd.so.2",
+    "lib/libamd.so.2.4.6",
+    "lib/libbtf.a",
+    "lib/libbtf.so",
+    "lib/libbtf.so.1",
+    "lib/libbtf.so.1.2.6",
+    "lib/libcamd.a",
+    "lib/libcamd.so",
+    "lib/libcamd.so.2",
+    "lib/libcamd.so.2.4.6",
+    "lib/libccolamd.a",
+    "lib/libccolamd.so",
+    "lib/libccolamd.so.2",
+    "lib/libccolamd.so.2.9.6",
+    "lib/libcholmod.a",
+    "lib/libcholmod.so",
+    "lib/libcholmod.so.3",
+    "lib/libcholmod.so.3.0.12",
+    "lib/libcolamd.a",
+    "lib/libcolamd.so",
+    "lib/libcolamd.so.2",
+    "lib/libcolamd.so.2.9.6",
+    "lib/libcsparse.a",
+    "lib/libcxsparse.a",
+    "lib/libcxsparse.so",
+    "lib/libcxsparse.so.3",
+    "lib/libcxsparse.so.3.2.0",
+    "lib/libklu.a",
+    "lib/libklu.so",
+    "lib/libklu.so.1",
+    "lib/libklu.so.1.3.8",
+    "lib/libldl.a",
+    "lib/libldl.so",
+    "lib/libldl.so.2",
+    "lib/libldl.so.2.2.6",
+    "lib/librbio.a",
+    "lib/librbio.so",
+    "lib/librbio.so.2",
+    "lib/librbio.so.2.2.6",
+    "lib/libspqr.a",
+    "lib/libspqr.so",
+    "lib/libspqr.so.2",
+    "lib/libspqr.so.2.0.8",
+    "lib/libsuitesparseconfig.a",
+    "lib/libsuitesparseconfig.so",
+    "lib/libsuitesparseconfig.so.5",
+    "lib/libsuitesparseconfig.so.5.2.0",
+    "lib/libumfpack.a",
+    "lib/libumfpack.so",
+    "lib/libumfpack.so.5",
+    "lib/libumfpack.so.5.7.6"
+  ],
+  "fn": "suitesparse-5.2.0-h0253a28_0.conda",
+  "legacy_bz2_md5": "86e42670e65533d9853697e9d629c3cc",
+  "legacy_bz2_size": 2483333,
+  "license": "LGPL v2 (AMD, BTF, etc), BSD 3-clause (UFget), GPL v2 (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache 2.0 (Metis)",
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/suitesparse-5.2.0-h0253a28_0",
+    "type": 1
+  },
+  "md5": "2b03024332747557daec0f0c5b746300",
+  "name": "suitesparse",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/suitesparse-5.2.0-h0253a28_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/RBio.h",
+        "path_type": "hardlink",
+        "sha256": "ec766aedc92193875fbbf478b650cd426969990e5abb5afc9bcfa2c9b764a46d",
+        "sha256_in_prefix": "ec766aedc92193875fbbf478b650cd426969990e5abb5afc9bcfa2c9b764a46d",
+        "size_in_bytes": 11843
+      },
+      {
+        "_path": "include/SuiteSparseQR.hpp",
+        "path_type": "hardlink",
+        "sha256": "f601e7627d4ff451b0e7e6777b682d75dc897082237976f0a2bf1df6ea57f46c",
+        "sha256_in_prefix": "f601e7627d4ff451b0e7e6777b682d75dc897082237976f0a2bf1df6ea57f46c",
+        "size_in_bytes": 27041
+      },
+      {
+        "_path": "include/SuiteSparseQR_C.h",
+        "path_type": "hardlink",
+        "sha256": "ee4e0fae46b59b34dd3462a68805f435ae38ce4730d627bef4448374fe5b1ef7",
+        "sha256_in_prefix": "ee4e0fae46b59b34dd3462a68805f435ae38ce4730d627bef4448374fe5b1ef7",
+        "size_in_bytes": 9626
+      },
+      {
+        "_path": "include/SuiteSparseQR_definitions.h",
+        "path_type": "hardlink",
+        "sha256": "2c062d664cef0fa94117f39164ea0678f5645ba0568879134d4092e5da43c768",
+        "sha256_in_prefix": "2c062d664cef0fa94117f39164ea0678f5645ba0568879134d4092e5da43c768",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "include/SuiteSparse_config.h",
+        "path_type": "hardlink",
+        "sha256": "4240115a06f9e3232699aa93438c91a51385928d63318486e6abf778bd5b5aee",
+        "sha256_in_prefix": "4240115a06f9e3232699aa93438c91a51385928d63318486e6abf778bd5b5aee",
+        "size_in_bytes": 8955
+      },
+      {
+        "_path": "include/amd.h",
+        "path_type": "hardlink",
+        "sha256": "28628b0c724bd36c05934fbb0006a5513f4cf69e0d196446761143947f7b8bd6",
+        "sha256_in_prefix": "28628b0c724bd36c05934fbb0006a5513f4cf69e0d196446761143947f7b8bd6",
+        "size_in_bytes": 17821
+      },
+      {
+        "_path": "include/btf.h",
+        "path_type": "hardlink",
+        "sha256": "5443a46c22a5253472aaa416f39c4a9c6f0f760fed11253d8a11c89c15fe5403",
+        "sha256_in_prefix": "5443a46c22a5253472aaa416f39c4a9c6f0f760fed11253d8a11c89c15fe5403",
+        "size_in_bytes": 12382
+      },
+      {
+        "_path": "include/camd.h",
+        "path_type": "hardlink",
+        "sha256": "b1bbef37e298321db716ab85e0f25e529af6fd54837b24ecbec7d2f76bbee980",
+        "sha256_in_prefix": "b1bbef37e298321db716ab85e0f25e529af6fd54837b24ecbec7d2f76bbee980",
+        "size_in_bytes": 17343
+      },
+      {
+        "_path": "include/ccolamd.h",
+        "path_type": "hardlink",
+        "sha256": "7eabf3ab601e303cfcf4158d940cee7bca7cce3c99b363d2c7a9d3a5036ce013",
+        "sha256_in_prefix": "7eabf3ab601e303cfcf4158d940cee7bca7cce3c99b363d2c7a9d3a5036ce013",
+        "size_in_bytes": 11058
+      },
+      {
+        "_path": "include/cholmod.h",
+        "path_type": "hardlink",
+        "sha256": "c2f989c34da479f923b0e731daa77b37122c2586e85faea34e4f1c1766a63820",
+        "sha256_in_prefix": "c2f989c34da479f923b0e731daa77b37122c2586e85faea34e4f1c1766a63820",
+        "size_in_bytes": 3714
+      },
+      {
+        "_path": "include/cholmod_blas.h",
+        "path_type": "hardlink",
+        "sha256": "5d543307f232a977e3935e73d17194e9601fc18a7090f917aef4d5684c83bad0",
+        "sha256_in_prefix": "5d543307f232a977e3935e73d17194e9601fc18a7090f917aef4d5684c83bad0",
+        "size_in_bytes": 13724
+      },
+      {
+        "_path": "include/cholmod_camd.h",
+        "path_type": "hardlink",
+        "sha256": "81c700fbbec260a22469f4ccd125312c1f62e9697fe860b65b26c1a54cbbfebe",
+        "sha256_in_prefix": "81c700fbbec260a22469f4ccd125312c1f62e9697fe860b65b26c1a54cbbfebe",
+        "size_in_bytes": 3474
+      },
+      {
+        "_path": "include/cholmod_check.h",
+        "path_type": "hardlink",
+        "sha256": "5eebd6bae4570190e17dec08c4938c216a31cc1d12741522a964b33f0e52e472",
+        "sha256_in_prefix": "5eebd6bae4570190e17dec08c4938c216a31cc1d12741522a964b33f0e52e472",
+        "size_in_bytes": 14851
+      },
+      {
+        "_path": "include/cholmod_cholesky.h",
+        "path_type": "hardlink",
+        "sha256": "42454a68d58d0b9dfe1142a82a15240f1a6f7e357fddbed054ad0c5e127b4964",
+        "sha256_in_prefix": "42454a68d58d0b9dfe1142a82a15240f1a6f7e357fddbed054ad0c5e127b4964",
+        "size_in_bytes": 22969
+      },
+      {
+        "_path": "include/cholmod_complexity.h",
+        "path_type": "hardlink",
+        "sha256": "cdf0719bb375a668abc64c7e25b5f013aeb8ca27134feccd5981c9d1492acdb4",
+        "sha256_in_prefix": "cdf0719bb375a668abc64c7e25b5f013aeb8ca27134feccd5981c9d1492acdb4",
+        "size_in_bytes": 9416
+      },
+      {
+        "_path": "include/cholmod_config.h",
+        "path_type": "hardlink",
+        "sha256": "0bdd10ea9bcca508261798236f2e923da7118bfc8b8fa81ba46ea0c3b4f49908",
+        "sha256_in_prefix": "0bdd10ea9bcca508261798236f2e923da7118bfc8b8fa81ba46ea0c3b4f49908",
+        "size_in_bytes": 2617
+      },
+      {
+        "_path": "include/cholmod_core.h",
+        "path_type": "hardlink",
+        "sha256": "cc290311be95f0c0cd6427bf1837365a531b0fda96d175c3f79db08617f295cf",
+        "sha256_in_prefix": "cc290311be95f0c0cd6427bf1837365a531b0fda96d175c3f79db08617f295cf",
+        "size_in_bytes": 102829
+      },
+      {
+        "_path": "include/cholmod_function.h",
+        "path_type": "hardlink",
+        "sha256": "d422d65f4328a791c45d4a23462e60db5411e0e3c2bf8e3eea09272587c0b8f7",
+        "sha256_in_prefix": "d422d65f4328a791c45d4a23462e60db5411e0e3c2bf8e3eea09272587c0b8f7",
+        "size_in_bytes": 6639
+      },
+      {
+        "_path": "include/cholmod_gpu.h",
+        "path_type": "hardlink",
+        "sha256": "007616c7621a0cb4448b88afceffdbe892ee14aa2f769befa8e4439f7d6d57e6",
+        "sha256_in_prefix": "007616c7621a0cb4448b88afceffdbe892ee14aa2f769befa8e4439f7d6d57e6",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "include/cholmod_gpu_kernels.h",
+        "path_type": "hardlink",
+        "sha256": "445dc9ab7cd39b9a5a9b3ddc0caa8265433984737eeba45bcd75d69eb50ddf90",
+        "sha256_in_prefix": "445dc9ab7cd39b9a5a9b3ddc0caa8265433984737eeba45bcd75d69eb50ddf90",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "include/cholmod_io64.h",
+        "path_type": "hardlink",
+        "sha256": "8a2c6c343fa4f9d328bb4e214b704f29e06ac0f77a7511c947f537ec6222790b",
+        "sha256_in_prefix": "8a2c6c343fa4f9d328bb4e214b704f29e06ac0f77a7511c947f537ec6222790b",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "include/cholmod_matrixops.h",
+        "path_type": "hardlink",
+        "sha256": "8c4459e75a10f70cec808d12cddaf15c435e3988d457c8678c94a58c7996ee15",
+        "sha256_in_prefix": "8c4459e75a10f70cec808d12cddaf15c435e3988d457c8678c94a58c7996ee15",
+        "size_in_bytes": 8464
+      },
+      {
+        "_path": "include/cholmod_modify.h",
+        "path_type": "hardlink",
+        "sha256": "3142938471a939aa55aaae1b4edccab136b85be45aafdab508e153138f700ef6",
+        "sha256_in_prefix": "3142938471a939aa55aaae1b4edccab136b85be45aafdab508e153138f700ef6",
+        "size_in_bytes": 13563
+      },
+      {
+        "_path": "include/cholmod_partition.h",
+        "path_type": "hardlink",
+        "sha256": "9ce1b7eec2bd6368f8098109d0207aa95016a61f614087132ed326af61e09a6c",
+        "sha256_in_prefix": "9ce1b7eec2bd6368f8098109d0207aa95016a61f614087132ed326af61e09a6c",
+        "size_in_bytes": 6892
+      },
+      {
+        "_path": "include/cholmod_supernodal.h",
+        "path_type": "hardlink",
+        "sha256": "8909ebec7040256b1280e6629c20e9f4f3f2e6795083f98a2eeb1da1b4e62c2b",
+        "sha256_in_prefix": "8909ebec7040256b1280e6629c20e9f4f3f2e6795083f98a2eeb1da1b4e62c2b",
+        "size_in_bytes": 6222
+      },
+      {
+        "_path": "include/cholmod_template.h",
+        "path_type": "hardlink",
+        "sha256": "83f1e3a2b93c60e8b97b2771a09c42b8dd1b00182915e9d2c358a14c57dfd376",
+        "sha256_in_prefix": "83f1e3a2b93c60e8b97b2771a09c42b8dd1b00182915e9d2c358a14c57dfd376",
+        "size_in_bytes": 9518
+      },
+      {
+        "_path": "include/colamd.h",
+        "path_type": "hardlink",
+        "sha256": "de5f13dca773b65fdbefbe56790538d523e8ec86ff9d8fd6c8e6e3ac1d6d3fb4",
+        "sha256_in_prefix": "de5f13dca773b65fdbefbe56790538d523e8ec86ff9d8fd6c8e6e3ac1d6d3fb4",
+        "size_in_bytes": 8361
+      },
+      {
+        "_path": "include/cs.h",
+        "path_type": "hardlink",
+        "sha256": "938880cd2565efa73266918fa2ccd609d0737e7b66d323589ec70fb9834b6985",
+        "sha256_in_prefix": "938880cd2565efa73266918fa2ccd609d0737e7b66d323589ec70fb9834b6985",
+        "size_in_bytes": 32833
+      },
+      {
+        "_path": "include/klu.h",
+        "path_type": "hardlink",
+        "sha256": "26c6483a09338fab6c2ac346f0850770e4c60c9667fa6a648ffa3cef29540422",
+        "sha256_in_prefix": "26c6483a09338fab6c2ac346f0850770e4c60c9667fa6a648ffa3cef29540422",
+        "size_in_bytes": 29763
+      },
+      {
+        "_path": "include/ldl.h",
+        "path_type": "hardlink",
+        "sha256": "16438e0b94423181f7dd3e62f208c2be6d56879c8faa6c986777f37eaecc37da",
+        "sha256_in_prefix": "16438e0b94423181f7dd3e62f208c2be6d56879c8faa6c986777f37eaecc37da",
+        "size_in_bytes": 4366
+      },
+      {
+        "_path": "include/spqr.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f2e9503d3f1dc1309ab7c7500115ad6283ed8caaae6fd474ac867345e82822e",
+        "sha256_in_prefix": "7f2e9503d3f1dc1309ab7c7500115ad6283ed8caaae6fd474ac867345e82822e",
+        "size_in_bytes": 34550
+      },
+      {
+        "_path": "include/umfpack.h",
+        "path_type": "hardlink",
+        "sha256": "7f5e70ed9d5d70331315f120680a32620255b2bb9fa0e5c7622899ba3f61c48f",
+        "sha256_in_prefix": "7f5e70ed9d5d70331315f120680a32620255b2bb9fa0e5c7622899ba3f61c48f",
+        "size_in_bytes": 17594
+      },
+      {
+        "_path": "include/umfpack_col_to_triplet.h",
+        "path_type": "hardlink",
+        "sha256": "afc69df7a76243ffb1335e969a7e2d971e8658c1469a84990b6c7c26c6bd11c1",
+        "sha256_in_prefix": "afc69df7a76243ffb1335e969a7e2d971e8658c1469a84990b6c7c26c6bd11c1",
+        "size_in_bytes": 3739
+      },
+      {
+        "_path": "include/umfpack_defaults.h",
+        "path_type": "hardlink",
+        "sha256": "31d69a728f53b9c70116fe5ac96e181213802bbb2040507db5539af69d34e488",
+        "sha256_in_prefix": "31d69a728f53b9c70116fe5ac96e181213802bbb2040507db5539af69d34e488",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "include/umfpack_free_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "e54e9ec9d8a0344567f70cdc5441e0474677a3c9d35ab53f35ebd213546db25c",
+        "sha256_in_prefix": "e54e9ec9d8a0344567f70cdc5441e0474677a3c9d35ab53f35ebd213546db25c",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "include/umfpack_free_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "1c9fcdf09766db5e4e0c26fce358231c37a4d41a94ea421daa37f9e116e3f2ce",
+        "sha256_in_prefix": "1c9fcdf09766db5e4e0c26fce358231c37a4d41a94ea421daa37f9e116e3f2ce",
+        "size_in_bytes": 1645
+      },
+      {
+        "_path": "include/umfpack_get_determinant.h",
+        "path_type": "hardlink",
+        "sha256": "b5ead1d7650c01ae7f6b7f9f99c0b28fd62a3242ba35753675a4f0e2912aeda3",
+        "sha256_in_prefix": "b5ead1d7650c01ae7f6b7f9f99c0b28fd62a3242ba35753675a4f0e2912aeda3",
+        "size_in_bytes": 6157
+      },
+      {
+        "_path": "include/umfpack_get_lunz.h",
+        "path_type": "hardlink",
+        "sha256": "697087f6866fb5af05a092d50a1a99e7680ecae921b6e12f432ce578f75cd6dd",
+        "sha256_in_prefix": "697087f6866fb5af05a092d50a1a99e7680ecae921b6e12f432ce578f75cd6dd",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "include/umfpack_get_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "fc9c0598d338f2e7bb4177a4b1b7caccf2510c2f0781d13088632324cc8d2cef",
+        "sha256_in_prefix": "fc9c0598d338f2e7bb4177a4b1b7caccf2510c2f0781d13088632324cc8d2cef",
+        "size_in_bytes": 9127
+      },
+      {
+        "_path": "include/umfpack_get_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "5c75b51f6c9bf6aadf7a75e8a2d5ab38bed2d7ccb88e205b6dcdfdd6bf33b5d3",
+        "sha256_in_prefix": "5c75b51f6c9bf6aadf7a75e8a2d5ab38bed2d7ccb88e205b6dcdfdd6bf33b5d3",
+        "size_in_bytes": 13283
+      },
+      {
+        "_path": "include/umfpack_global.h",
+        "path_type": "hardlink",
+        "sha256": "fde2ba1d4e3049929a7cad5bf431870a2c37ab6493df585556117aaedea22191",
+        "sha256_in_prefix": "fde2ba1d4e3049929a7cad5bf431870a2c37ab6493df585556117aaedea22191",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "include/umfpack_load_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "c874c250fccee8d8b27cecd5db04ca2d037a6848a0fc918b275939fb28953790",
+        "sha256_in_prefix": "c874c250fccee8d8b27cecd5db04ca2d037a6848a0fc918b275939fb28953790",
+        "size_in_bytes": 2558
+      },
+      {
+        "_path": "include/umfpack_load_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "4f0b82abd9f86360054f6859936a0fa9dbf09c323d76cdc07e65817e99ae9a7b",
+        "sha256_in_prefix": "4f0b82abd9f86360054f6859936a0fa9dbf09c323d76cdc07e65817e99ae9a7b",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "include/umfpack_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "7fa67876fdaf485a4498e341578b69be2d6b93203f928d977d5ea711f5389183",
+        "sha256_in_prefix": "7fa67876fdaf485a4498e341578b69be2d6b93203f928d977d5ea711f5389183",
+        "size_in_bytes": 23190
+      },
+      {
+        "_path": "include/umfpack_qsymbolic.h",
+        "path_type": "hardlink",
+        "sha256": "3c6e091246aa6b6641fd9fbd03addcff4fe041a911b5d889d85dafccea70f575",
+        "sha256_in_prefix": "3c6e091246aa6b6641fd9fbd03addcff4fe041a911b5d889d85dafccea70f575",
+        "size_in_bytes": 7777
+      },
+      {
+        "_path": "include/umfpack_report_control.h",
+        "path_type": "hardlink",
+        "sha256": "6b5894c7dc01e5673f0e6cc23f34c861efbb320344fc4d4d17e42ce206e575fc",
+        "sha256_in_prefix": "6b5894c7dc01e5673f0e6cc23f34c861efbb320344fc4d4d17e42ce206e575fc",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "include/umfpack_report_info.h",
+        "path_type": "hardlink",
+        "sha256": "8cbf6b4ae97c1b63324705a3e297475b78560f7e832274ded329e2534999294c",
+        "sha256_in_prefix": "8cbf6b4ae97c1b63324705a3e297475b78560f7e832274ded329e2534999294c",
+        "size_in_bytes": 2576
+      },
+      {
+        "_path": "include/umfpack_report_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "9d34db1ee51a10fa19db3c110e8f898e9c3dd9e379bb3b8efcbc3062d0ea1922",
+        "sha256_in_prefix": "9d34db1ee51a10fa19db3c110e8f898e9c3dd9e379bb3b8efcbc3062d0ea1922",
+        "size_in_bytes": 7060
+      },
+      {
+        "_path": "include/umfpack_report_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "4e2abaa91abb8f3053ab261847eab3c9a4feb87d2524d3e4801fcb539e1868fa",
+        "sha256_in_prefix": "4e2abaa91abb8f3053ab261847eab3c9a4feb87d2524d3e4801fcb539e1868fa",
+        "size_in_bytes": 3585
+      },
+      {
+        "_path": "include/umfpack_report_perm.h",
+        "path_type": "hardlink",
+        "sha256": "e21a8cbf7219f4b0a12fb1632e6b2d598db1fc1b5db8143f35e9f53b6c159f8b",
+        "sha256_in_prefix": "e21a8cbf7219f4b0a12fb1632e6b2d598db1fc1b5db8143f35e9f53b6c159f8b",
+        "size_in_bytes": 3529
+      },
+      {
+        "_path": "include/umfpack_report_status.h",
+        "path_type": "hardlink",
+        "sha256": "e9543e41c45db2f56f4e2bfda35f2e221e2df0c7d21aa098e176da9cbc38889e",
+        "sha256_in_prefix": "e9543e41c45db2f56f4e2bfda35f2e221e2df0c7d21aa098e176da9cbc38889e",
+        "size_in_bytes": 2536
+      },
+      {
+        "_path": "include/umfpack_report_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "e6b1c5de32086cc36815ce6e04c03decfa58bb1a79598b36e0c88c4bddc1a704",
+        "sha256_in_prefix": "e6b1c5de32086cc36815ce6e04c03decfa58bb1a79598b36e0c88c4bddc1a704",
+        "size_in_bytes": 3524
+      },
+      {
+        "_path": "include/umfpack_report_triplet.h",
+        "path_type": "hardlink",
+        "sha256": "4caa876f243d8147ca1db028eb80a16a75cd3f9ad59d2e3355ace70d446277fc",
+        "sha256_in_prefix": "4caa876f243d8147ca1db028eb80a16a75cd3f9ad59d2e3355ace70d446277fc",
+        "size_in_bytes": 4956
+      },
+      {
+        "_path": "include/umfpack_report_vector.h",
+        "path_type": "hardlink",
+        "sha256": "c1c3998b21ebbc1905f9dd305457d100fe64f8370fa0095a3dad2aa49682c2ac",
+        "sha256_in_prefix": "c1c3998b21ebbc1905f9dd305457d100fe64f8370fa0095a3dad2aa49682c2ac",
+        "size_in_bytes": 4498
+      },
+      {
+        "_path": "include/umfpack_save_numeric.h",
+        "path_type": "hardlink",
+        "sha256": "2a1170415d804695dd2815dd7fcdfde37a3d5bcddf7c03b037e120e10e64ed80",
+        "sha256_in_prefix": "2a1170415d804695dd2815dd7fcdfde37a3d5bcddf7c03b037e120e10e64ed80",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "include/umfpack_save_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "153ec6e160cb0c4499469e740d1bef67c1de75b21e270ae0068f4cb221aeeb1e",
+        "sha256_in_prefix": "153ec6e160cb0c4499469e740d1bef67c1de75b21e270ae0068f4cb221aeeb1e",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "include/umfpack_scale.h",
+        "path_type": "hardlink",
+        "sha256": "88042ed8aaad54465e7818473148809f6149959dfde13ae060d9c7d53a0c3b68",
+        "sha256_in_prefix": "88042ed8aaad54465e7818473148809f6149959dfde13ae060d9c7d53a0c3b68",
+        "size_in_bytes": 3116
+      },
+      {
+        "_path": "include/umfpack_solve.h",
+        "path_type": "hardlink",
+        "sha256": "e8784bb419821fd34d78be29db2b3b4f2fe29118c0a024c0cf52a8fcba4015e2",
+        "sha256_in_prefix": "e8784bb419821fd34d78be29db2b3b4f2fe29118c0a024c0cf52a8fcba4015e2",
+        "size_in_bytes": 10720
+      },
+      {
+        "_path": "include/umfpack_symbolic.h",
+        "path_type": "hardlink",
+        "sha256": "87ea8a28deaaefe953812714aa048a401956afe3830707e0d8e657d2ae64b98a",
+        "sha256_in_prefix": "87ea8a28deaaefe953812714aa048a401956afe3830707e0d8e657d2ae64b98a",
+        "size_in_bytes": 21804
+      },
+      {
+        "_path": "include/umfpack_tictoc.h",
+        "path_type": "hardlink",
+        "sha256": "ce5fbde028713f40dc7f08835df29dfff53e67b799ed30ce3466588bdcc06a09",
+        "sha256_in_prefix": "ce5fbde028713f40dc7f08835df29dfff53e67b799ed30ce3466588bdcc06a09",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "include/umfpack_timer.h",
+        "path_type": "hardlink",
+        "sha256": "1bd833a238a810b89e602890a8ddf5d975367c4e3658798d0847e55d4ae6b148",
+        "sha256_in_prefix": "1bd833a238a810b89e602890a8ddf5d975367c4e3658798d0847e55d4ae6b148",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "include/umfpack_transpose.h",
+        "path_type": "hardlink",
+        "sha256": "77a6bd8bae24d6a33bb083a289bcf057191be508550a759949f70d50869e9de8",
+        "sha256_in_prefix": "77a6bd8bae24d6a33bb083a289bcf057191be508550a759949f70d50869e9de8",
+        "size_in_bytes": 8064
+      },
+      {
+        "_path": "include/umfpack_triplet_to_col.h",
+        "path_type": "hardlink",
+        "sha256": "9cbbe0974bca8daca36b751bd2bb2c64f314509c305137b11d27876d2204f86e",
+        "sha256_in_prefix": "9cbbe0974bca8daca36b751bd2bb2c64f314509c305137b11d27876d2204f86e",
+        "size_in_bytes": 10559
+      },
+      {
+        "_path": "include/umfpack_wsolve.h",
+        "path_type": "hardlink",
+        "sha256": "ed17eb7996c11da087c620e0415cd4721be896ff52e7fd49f0cd34c768a4b622",
+        "sha256_in_prefix": "ed17eb7996c11da087c620e0415cd4721be896ff52e7fd49f0cd34c768a4b622",
+        "size_in_bytes": 5587
+      },
+      {
+        "_path": "lib/libamd.a",
+        "path_type": "hardlink",
+        "sha256": "feaa031922f21c911919a19b0f2f894b507e9f6f1afab44da15a9c2e51cf3827",
+        "sha256_in_prefix": "feaa031922f21c911919a19b0f2f894b507e9f6f1afab44da15a9c2e51cf3827",
+        "size_in_bytes": 82066
+      },
+      {
+        "_path": "lib/libamd.so",
+        "path_type": "softlink",
+        "sha256": "fc513bfe916ed7ae6eee1d28ba1f1047dd32772dc297d9444e7b1125bbd71d12",
+        "size_in_bytes": 50336
+      },
+      {
+        "_path": "lib/libamd.so.2",
+        "path_type": "softlink",
+        "sha256": "fc513bfe916ed7ae6eee1d28ba1f1047dd32772dc297d9444e7b1125bbd71d12",
+        "size_in_bytes": 50336
+      },
+      {
+        "_path": "lib/libamd.so.2.4.6",
+        "path_type": "hardlink",
+        "sha256": "fc513bfe916ed7ae6eee1d28ba1f1047dd32772dc297d9444e7b1125bbd71d12",
+        "sha256_in_prefix": "fc513bfe916ed7ae6eee1d28ba1f1047dd32772dc297d9444e7b1125bbd71d12",
+        "size_in_bytes": 50336
+      },
+      {
+        "_path": "lib/libbtf.a",
+        "path_type": "hardlink",
+        "sha256": "1893b197537257b54f1bd49cbf2579ac15fabf9bfbf7186891c21ee903dafe34",
+        "sha256_in_prefix": "1893b197537257b54f1bd49cbf2579ac15fabf9bfbf7186891c21ee903dafe34",
+        "size_in_bytes": 17542
+      },
+      {
+        "_path": "lib/libbtf.so",
+        "path_type": "softlink",
+        "sha256": "6c254f50d49c9817bc33376128cf71df9192101ce0beab26b70ec7f122be585e",
+        "size_in_bytes": 16312
+      },
+      {
+        "_path": "lib/libbtf.so.1",
+        "path_type": "softlink",
+        "sha256": "6c254f50d49c9817bc33376128cf71df9192101ce0beab26b70ec7f122be585e",
+        "size_in_bytes": 16312
+      },
+      {
+        "_path": "lib/libbtf.so.1.2.6",
+        "path_type": "hardlink",
+        "sha256": "6c254f50d49c9817bc33376128cf71df9192101ce0beab26b70ec7f122be585e",
+        "sha256_in_prefix": "6c254f50d49c9817bc33376128cf71df9192101ce0beab26b70ec7f122be585e",
+        "size_in_bytes": 16312
+      },
+      {
+        "_path": "lib/libcamd.a",
+        "path_type": "hardlink",
+        "sha256": "3be216d6a9b3ccee5cb389ea1e50cf2253dc89f120cfb79d407e29a5a8688897",
+        "sha256_in_prefix": "3be216d6a9b3ccee5cb389ea1e50cf2253dc89f120cfb79d407e29a5a8688897",
+        "size_in_bytes": 84926
+      },
+      {
+        "_path": "lib/libcamd.so",
+        "path_type": "softlink",
+        "sha256": "19c6d7f07c7ba5abd1abd50b8d6fca00c84351360d9585feb669ef9f9157c7f8",
+        "size_in_bytes": 54488
+      },
+      {
+        "_path": "lib/libcamd.so.2",
+        "path_type": "softlink",
+        "sha256": "19c6d7f07c7ba5abd1abd50b8d6fca00c84351360d9585feb669ef9f9157c7f8",
+        "size_in_bytes": 54488
+      },
+      {
+        "_path": "lib/libcamd.so.2.4.6",
+        "path_type": "hardlink",
+        "sha256": "19c6d7f07c7ba5abd1abd50b8d6fca00c84351360d9585feb669ef9f9157c7f8",
+        "sha256_in_prefix": "19c6d7f07c7ba5abd1abd50b8d6fca00c84351360d9585feb669ef9f9157c7f8",
+        "size_in_bytes": 54488
+      },
+      {
+        "_path": "lib/libccolamd.a",
+        "path_type": "hardlink",
+        "sha256": "997483133d41e87b1b3edd6d201c457ab4bf2bb71202adb009a716da500b94f3",
+        "sha256_in_prefix": "997483133d41e87b1b3edd6d201c457ab4bf2bb71202adb009a716da500b94f3",
+        "size_in_bytes": 53866
+      },
+      {
+        "_path": "lib/libccolamd.so",
+        "path_type": "softlink",
+        "sha256": "3758b24ae75d9ffd60abe7df14bd332f781473f34289ed1e7b25945668e9398f",
+        "size_in_bytes": 49736
+      },
+      {
+        "_path": "lib/libccolamd.so.2",
+        "path_type": "softlink",
+        "sha256": "3758b24ae75d9ffd60abe7df14bd332f781473f34289ed1e7b25945668e9398f",
+        "size_in_bytes": 49736
+      },
+      {
+        "_path": "lib/libccolamd.so.2.9.6",
+        "path_type": "hardlink",
+        "sha256": "3758b24ae75d9ffd60abe7df14bd332f781473f34289ed1e7b25945668e9398f",
+        "sha256_in_prefix": "3758b24ae75d9ffd60abe7df14bd332f781473f34289ed1e7b25945668e9398f",
+        "size_in_bytes": 49736
+      },
+      {
+        "_path": "lib/libcholmod.a",
+        "path_type": "hardlink",
+        "sha256": "2ba598b30a62433b2c0a180d06456a1520b249e92a012e6df01d6e1575486b3a",
+        "sha256_in_prefix": "2ba598b30a62433b2c0a180d06456a1520b249e92a012e6df01d6e1575486b3a",
+        "size_in_bytes": 1537340
+      },
+      {
+        "_path": "lib/libcholmod.so",
+        "path_type": "softlink",
+        "sha256": "79447e96776ccf5ee7a8c20a4e10800737014e459c44995583f42938b3135208",
+        "size_in_bytes": 1081784
+      },
+      {
+        "_path": "lib/libcholmod.so.3",
+        "path_type": "softlink",
+        "sha256": "79447e96776ccf5ee7a8c20a4e10800737014e459c44995583f42938b3135208",
+        "size_in_bytes": 1081784
+      },
+      {
+        "_path": "lib/libcholmod.so.3.0.12",
+        "path_type": "hardlink",
+        "sha256": "79447e96776ccf5ee7a8c20a4e10800737014e459c44995583f42938b3135208",
+        "sha256_in_prefix": "79447e96776ccf5ee7a8c20a4e10800737014e459c44995583f42938b3135208",
+        "size_in_bytes": 1081784
+      },
+      {
+        "_path": "lib/libcolamd.a",
+        "path_type": "hardlink",
+        "sha256": "ffa043a582876eb95ff5d83e7a9745e3a2d400fffb9b03d6c3e1438e80fabf3e",
+        "sha256_in_prefix": "ffa043a582876eb95ff5d83e7a9745e3a2d400fffb9b03d6c3e1438e80fabf3e",
+        "size_in_bytes": 36222
+      },
+      {
+        "_path": "lib/libcolamd.so",
+        "path_type": "softlink",
+        "sha256": "68ccfc771dc3a82dc36f8c471fbac7b3aec04597eecac17ae10ea4cccbdbd287",
+        "size_in_bytes": 32936
+      },
+      {
+        "_path": "lib/libcolamd.so.2",
+        "path_type": "softlink",
+        "sha256": "68ccfc771dc3a82dc36f8c471fbac7b3aec04597eecac17ae10ea4cccbdbd287",
+        "size_in_bytes": 32936
+      },
+      {
+        "_path": "lib/libcolamd.so.2.9.6",
+        "path_type": "hardlink",
+        "sha256": "68ccfc771dc3a82dc36f8c471fbac7b3aec04597eecac17ae10ea4cccbdbd287",
+        "sha256_in_prefix": "68ccfc771dc3a82dc36f8c471fbac7b3aec04597eecac17ae10ea4cccbdbd287",
+        "size_in_bytes": 32936
+      },
+      {
+        "_path": "lib/libcsparse.a",
+        "path_type": "hardlink",
+        "sha256": "e57e4fe17a17d931f3b7239c79a15637d6ac65be8412b123f57dfee1bb4b1d52",
+        "sha256_in_prefix": "e57e4fe17a17d931f3b7239c79a15637d6ac65be8412b123f57dfee1bb4b1d52",
+        "size_in_bytes": 127858
+      },
+      {
+        "_path": "lib/libcxsparse.a",
+        "path_type": "hardlink",
+        "sha256": "9dce27ac1705303ca80dbcde0f6426751c2f89d61cced3086e4398c0ee0fbbd2",
+        "sha256_in_prefix": "9dce27ac1705303ca80dbcde0f6426751c2f89d61cced3086e4398c0ee0fbbd2",
+        "size_in_bytes": 548594
+      },
+      {
+        "_path": "lib/libcxsparse.so",
+        "path_type": "softlink",
+        "sha256": "078c390e67dbb53266241092f8bf01bc1ad80eb8e295995e5c1956b2387c7c3e",
+        "size_in_bytes": 244192
+      },
+      {
+        "_path": "lib/libcxsparse.so.3",
+        "path_type": "softlink",
+        "sha256": "078c390e67dbb53266241092f8bf01bc1ad80eb8e295995e5c1956b2387c7c3e",
+        "size_in_bytes": 244192
+      },
+      {
+        "_path": "lib/libcxsparse.so.3.2.0",
+        "path_type": "hardlink",
+        "sha256": "078c390e67dbb53266241092f8bf01bc1ad80eb8e295995e5c1956b2387c7c3e",
+        "sha256_in_prefix": "078c390e67dbb53266241092f8bf01bc1ad80eb8e295995e5c1956b2387c7c3e",
+        "size_in_bytes": 244192
+      },
+      {
+        "_path": "lib/libklu.a",
+        "path_type": "hardlink",
+        "sha256": "a638fea16d0f924453fe6e5fa6dcebd1bb498280b0e967da557480b6821309d9",
+        "sha256_in_prefix": "a638fea16d0f924453fe6e5fa6dcebd1bb498280b0e967da557480b6821309d9",
+        "size_in_bytes": 321704
+      },
+      {
+        "_path": "lib/libklu.so",
+        "path_type": "softlink",
+        "sha256": "fdfbd9f8c5dc50bf94c0ad1388e6d360eda5e196e3f5540a01f23f8fb3036383",
+        "size_in_bytes": 222448
+      },
+      {
+        "_path": "lib/libklu.so.1",
+        "path_type": "softlink",
+        "sha256": "fdfbd9f8c5dc50bf94c0ad1388e6d360eda5e196e3f5540a01f23f8fb3036383",
+        "size_in_bytes": 222448
+      },
+      {
+        "_path": "lib/libklu.so.1.3.8",
+        "path_type": "hardlink",
+        "sha256": "fdfbd9f8c5dc50bf94c0ad1388e6d360eda5e196e3f5540a01f23f8fb3036383",
+        "sha256_in_prefix": "fdfbd9f8c5dc50bf94c0ad1388e6d360eda5e196e3f5540a01f23f8fb3036383",
+        "size_in_bytes": 222448
+      },
+      {
+        "_path": "lib/libldl.a",
+        "path_type": "hardlink",
+        "sha256": "ec96401287c3a1636da6c19ddf33dc225afd88f9998e01ac586caf87b5c5e3f6",
+        "sha256_in_prefix": "ec96401287c3a1636da6c19ddf33dc225afd88f9998e01ac586caf87b5c5e3f6",
+        "size_in_bytes": 10070
+      },
+      {
+        "_path": "lib/libldl.so",
+        "path_type": "softlink",
+        "sha256": "394cc6815d57a6b5961cc502e099dda1ef292105dbc29a95da202cf3e4fa77e5",
+        "size_in_bytes": 16520
+      },
+      {
+        "_path": "lib/libldl.so.2",
+        "path_type": "softlink",
+        "sha256": "394cc6815d57a6b5961cc502e099dda1ef292105dbc29a95da202cf3e4fa77e5",
+        "size_in_bytes": 16520
+      },
+      {
+        "_path": "lib/libldl.so.2.2.6",
+        "path_type": "hardlink",
+        "sha256": "394cc6815d57a6b5961cc502e099dda1ef292105dbc29a95da202cf3e4fa77e5",
+        "sha256_in_prefix": "394cc6815d57a6b5961cc502e099dda1ef292105dbc29a95da202cf3e4fa77e5",
+        "size_in_bytes": 16520
+      },
+      {
+        "_path": "lib/librbio.a",
+        "path_type": "hardlink",
+        "sha256": "dbb6eb4c2c26d2e8b7eef3380e6842f1b491e83abf93b4367d20b8cd1b9668aa",
+        "sha256_in_prefix": "dbb6eb4c2c26d2e8b7eef3380e6842f1b491e83abf93b4367d20b8cd1b9668aa",
+        "size_in_bytes": 85392
+      },
+      {
+        "_path": "lib/librbio.so",
+        "path_type": "softlink",
+        "sha256": "c69a7e51d8821b86da916f2845701b65c2c71264bba09239ae965b673ce1f21c",
+        "size_in_bytes": 70992
+      },
+      {
+        "_path": "lib/librbio.so.2",
+        "path_type": "softlink",
+        "sha256": "c69a7e51d8821b86da916f2845701b65c2c71264bba09239ae965b673ce1f21c",
+        "size_in_bytes": 70992
+      },
+      {
+        "_path": "lib/librbio.so.2.2.6",
+        "path_type": "hardlink",
+        "sha256": "c69a7e51d8821b86da916f2845701b65c2c71264bba09239ae965b673ce1f21c",
+        "sha256_in_prefix": "c69a7e51d8821b86da916f2845701b65c2c71264bba09239ae965b673ce1f21c",
+        "size_in_bytes": 70992
+      },
+      {
+        "_path": "lib/libspqr.a",
+        "path_type": "hardlink",
+        "sha256": "ff104b7454bede9764a2130cc4a748d40249791a54efdd5e63961a6a7648a628",
+        "sha256_in_prefix": "ff104b7454bede9764a2130cc4a748d40249791a54efdd5e63961a6a7648a628",
+        "size_in_bytes": 370870
+      },
+      {
+        "_path": "lib/libspqr.so",
+        "path_type": "softlink",
+        "sha256": "241d7d5eef723e9df702c786068b43f8921c9f54207767017a4d450d79c70eb1",
+        "size_in_bytes": 234528
+      },
+      {
+        "_path": "lib/libspqr.so.2",
+        "path_type": "softlink",
+        "sha256": "241d7d5eef723e9df702c786068b43f8921c9f54207767017a4d450d79c70eb1",
+        "size_in_bytes": 234528
+      },
+      {
+        "_path": "lib/libspqr.so.2.0.8",
+        "path_type": "hardlink",
+        "sha256": "241d7d5eef723e9df702c786068b43f8921c9f54207767017a4d450d79c70eb1",
+        "sha256_in_prefix": "241d7d5eef723e9df702c786068b43f8921c9f54207767017a4d450d79c70eb1",
+        "size_in_bytes": 234528
+      },
+      {
+        "_path": "lib/libsuitesparseconfig.a",
+        "path_type": "hardlink",
+        "sha256": "74ff7f1d4d6605b00895892fbf4b0341ff212594b3465acc7b9d840779e6fba0",
+        "sha256_in_prefix": "74ff7f1d4d6605b00895892fbf4b0341ff212594b3465acc7b9d840779e6fba0",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "lib/libsuitesparseconfig.so",
+        "path_type": "softlink",
+        "sha256": "53d6044bef51758717878825f087149d006c9f671b27821ad11d556e62594056",
+        "size_in_bytes": 12800
+      },
+      {
+        "_path": "lib/libsuitesparseconfig.so.5",
+        "path_type": "softlink",
+        "sha256": "53d6044bef51758717878825f087149d006c9f671b27821ad11d556e62594056",
+        "size_in_bytes": 12800
+      },
+      {
+        "_path": "lib/libsuitesparseconfig.so.5.2.0",
+        "path_type": "hardlink",
+        "sha256": "53d6044bef51758717878825f087149d006c9f671b27821ad11d556e62594056",
+        "sha256_in_prefix": "53d6044bef51758717878825f087149d006c9f671b27821ad11d556e62594056",
+        "size_in_bytes": 12800
+      },
+      {
+        "_path": "lib/libumfpack.a",
+        "path_type": "hardlink",
+        "sha256": "8b12674d44fd6ca6f49136c4f71ca4988f3f1c00492906616f6b4055000367bc",
+        "sha256_in_prefix": "8b12674d44fd6ca6f49136c4f71ca4988f3f1c00492906616f6b4055000367bc",
+        "size_in_bytes": 1595166
+      },
+      {
+        "_path": "lib/libumfpack.so",
+        "path_type": "softlink",
+        "sha256": "7fc324991a06fd4e980d825fe5ee65c86017d8d7c3df13fc1a111317abed3961",
+        "size_in_bytes": 889920
+      },
+      {
+        "_path": "lib/libumfpack.so.5",
+        "path_type": "softlink",
+        "sha256": "7fc324991a06fd4e980d825fe5ee65c86017d8d7c3df13fc1a111317abed3961",
+        "size_in_bytes": 889920
+      },
+      {
+        "_path": "lib/libumfpack.so.5.7.6",
+        "path_type": "hardlink",
+        "sha256": "7fc324991a06fd4e980d825fe5ee65c86017d8d7c3df13fc1a111317abed3961",
+        "sha256_in_prefix": "7fc324991a06fd4e980d825fe5ee65c86017d8d7c3df13fc1a111317abed3961",
+        "size_in_bytes": 889920
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e2cb9bbe97aa2dca9da0f207e410b871c31bcd5d27cbdce4017b247a8db2ee61",
+  "size": 1372946,
+  "subdir": "linux-64",
+  "timestamp": 1528940862588,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/suitesparse-5.2.0-h0253a28_0.conda",
+  "version": "5.2.0"
+}

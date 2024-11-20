@@ -1,0 +1,82 @@
+{
+  "build": "h276157c_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/glpk-4.65-h276157c_3",
+  "files": [
+    "bin/glpsol",
+    "include/glpk.h",
+    "lib/libglpk.a",
+    "lib/libglpk.so",
+    "lib/libglpk.so.40",
+    "lib/libglpk.so.40.3.0"
+  ],
+  "fn": "glpk-4.65-h276157c_3.conda",
+  "legacy_bz2_md5": "4df9a4bf7a1af46b886fb7288528b010",
+  "legacy_bz2_size": 1149209,
+  "license": "GPL3",
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/glpk-4.65-h276157c_3",
+    "type": 1
+  },
+  "md5": "b34dda7af54ce0a424dba44046b9d03f",
+  "name": "glpk",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/glpk-4.65-h276157c_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/glpsol",
+        "path_type": "hardlink",
+        "sha256": "76f801aa7b357ac58ff495cca8a30fb703b38d864fa3cd69a07492d431326205",
+        "sha256_in_prefix": "76f801aa7b357ac58ff495cca8a30fb703b38d864fa3cd69a07492d431326205",
+        "size_in_bytes": 51800
+      },
+      {
+        "_path": "include/glpk.h",
+        "path_type": "hardlink",
+        "sha256": "72978196b4a10f86acdceabc9cf6ffa045b422b08477ef0ea81506a4584fd145",
+        "sha256_in_prefix": "72978196b4a10f86acdceabc9cf6ffa045b422b08477ef0ea81506a4584fd145",
+        "size_in_bytes": 39954
+      },
+      {
+        "_path": "lib/libglpk.a",
+        "path_type": "hardlink",
+        "sha256": "635a13e2652835eaa4a25ba0485811d3a49599085fe228aae8b83be35fb58d1c",
+        "sha256_in_prefix": "635a13e2652835eaa4a25ba0485811d3a49599085fe228aae8b83be35fb58d1c",
+        "size_in_bytes": 2472816
+      },
+      {
+        "_path": "lib/libglpk.so",
+        "path_type": "softlink",
+        "sha256": "07b971087011b3690d8177c732514488ba23a84c656211f3ef0951931ed6caa8",
+        "size_in_bytes": 1085784
+      },
+      {
+        "_path": "lib/libglpk.so.40",
+        "path_type": "softlink",
+        "sha256": "07b971087011b3690d8177c732514488ba23a84c656211f3ef0951931ed6caa8",
+        "size_in_bytes": 1085784
+      },
+      {
+        "_path": "lib/libglpk.so.40.3.0",
+        "path_type": "hardlink",
+        "sha256": "07b971087011b3690d8177c732514488ba23a84c656211f3ef0951931ed6caa8",
+        "sha256_in_prefix": "07b971087011b3690d8177c732514488ba23a84c656211f3ef0951931ed6caa8",
+        "size_in_bytes": 1085784
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8929d938887dd20db28ce0c75eef9472dd6c32cd7338febd53f0c4c33c615b1b",
+  "size": 759226,
+  "subdir": "linux-64",
+  "timestamp": 1656071603169,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/glpk-4.65-h276157c_3.conda",
+  "version": "4.65"
+}

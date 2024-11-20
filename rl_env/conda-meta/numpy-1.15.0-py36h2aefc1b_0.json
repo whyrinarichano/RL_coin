@@ -1,0 +1,36 @@
+{
+  "build": "py36h2aefc1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "numpy-base 1.15.0 py36h7cdd4dd_0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/numpy-1.15.0-py36h2aefc1b_0",
+  "files": [],
+  "fn": "numpy-1.15.0-py36h2aefc1b_0.conda",
+  "legacy_bz2_md5": "5eafb6672782223539595c17288f5265",
+  "legacy_bz2_size": 36345,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/numpy-1.15.0-py36h2aefc1b_0",
+    "type": 1
+  },
+  "md5": "142df56ad47ef373b2841a0b9b89ed6d",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/numpy-1.15.0-py36h2aefc1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4a4cfb96a5a4d723d483e5f49fd8416eb872745f72ed36364e5982650d8f29fa",
+  "size": 34989,
+  "subdir": "linux-64",
+  "timestamp": 1532703550992,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.15.0-py36h2aefc1b_0.conda",
+  "version": "1.15.0"
+}

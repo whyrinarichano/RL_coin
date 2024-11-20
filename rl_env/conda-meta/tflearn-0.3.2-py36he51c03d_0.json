@@ -1,0 +1,57 @@
+{
+  "arch": "x86_64",
+  "build": "py36he51c03d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/contango/linux-64",
+  "constrains": [],
+  "depends": [
+    "h5py",
+    "numpy",
+    "pillow",
+    "python >=3.6,<3.7.0a0",
+    "scipy",
+    "six",
+    "tensorflow"
+  ],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/tflearn-0.3.2-py36he51c03d_0",
+  "files": [
+    "lib/python3.6/site-packages/tflearn-0.3.2-py3.6.egg",
+    "lib/python3.6/site-packages/tflearn.pth"
+  ],
+  "fn": "tflearn-0.3.2-py36he51c03d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/tflearn-0.3.2-py36he51c03d_0",
+    "type": 1
+  },
+  "md5": "33089776e5aac06f309477834f2fd496",
+  "name": "tflearn",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/tflearn-0.3.2-py36he51c03d_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/tflearn-0.3.2-py3.6.egg",
+        "path_type": "hardlink",
+        "sha256": "e44e556aa6c8999e9f7aba727095e5437b9e9cee814821b392dc49801dd9b211",
+        "sha256_in_prefix": "e44e556aa6c8999e9f7aba727095e5437b9e9cee814821b392dc49801dd9b211",
+        "size_in_bytes": 302520
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tflearn.pth",
+        "path_type": "hardlink",
+        "sha256": "fe0b0dad0426752e130a939c1357bb9a742a0e4cc228af58359adc99012e60a1",
+        "sha256_in_prefix": "fe0b0dad0426752e130a939c1357bb9a742a0e4cc228af58359adc99012e60a1",
+        "size_in_bytes": 26
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "contango::tflearn",
+  "size": 295088,
+  "subdir": "linux-64",
+  "timestamp": 1500348681381,
+  "url": "https://conda.anaconda.org/contango/linux-64/tflearn-0.3.2-py36he51c03d_0.tar.bz2",
+  "version": "0.3.2"
+}

@@ -1,0 +1,30 @@
+{
+  "build": "mkl",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/_tflow_select-2.3.0-mkl",
+  "files": [],
+  "fn": "_tflow_select-2.3.0-mkl.conda",
+  "legacy_bz2_md5": "5770354f88091e1944a2d1bd7257e4d0",
+  "legacy_bz2_size": 2049,
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/_tflow_select-2.3.0-mkl",
+    "type": 1
+  },
+  "md5": "bae8f1f0e1eea557cec5928eb603328d",
+  "name": "_tflow_select",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/_tflow_select-2.3.0-mkl.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4bfc1bf2abe66817eeeb55cbd3bdd8d8110b9ff7a7ca1539af77e1fad4fe051c",
+  "size": 2430,
+  "subdir": "linux-64",
+  "timestamp": 1538592486542,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/_tflow_select-2.3.0-mkl.conda",
+  "version": "2.3.0"
+}

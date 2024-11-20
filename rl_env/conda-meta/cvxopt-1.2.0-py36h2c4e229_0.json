@@ -1,0 +1,322 @@
+{
+  "build": "py36h2c4e229_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 openblas",
+    "fftw >=3.3.8,<4.0a0",
+    "glpk >=4.65,<4.66.0a0",
+    "gsl >=2.4,<2.5.0a0",
+    "libgcc-ng >=7.2.0",
+    "libopenblas >=0.2.20,<0.2.21.0a0",
+    "python >=3.6,<3.7.0a0",
+    "suitesparse >=5.2.0,<6.0a0"
+  ],
+  "extracted_package_dir": "/home/cksgh8511/anaconda3/pkgs/cvxopt-1.2.0-py36h2c4e229_0",
+  "files": [
+    "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/cvxopt/__init__.py",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/coneprog.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/cvxprog.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/info.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/misc.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/modeling.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/msk.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/printing.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/__pycache__/solvers.cpython-36.pyc",
+    "lib/python3.6/site-packages/cvxopt/_version.py",
+    "lib/python3.6/site-packages/cvxopt/amd.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/base.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/blas.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/cholmod.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/coneprog.py",
+    "lib/python3.6/site-packages/cvxopt/cvxprog.py",
+    "lib/python3.6/site-packages/cvxopt/fftw.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/glpk.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/gsl.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/info.py",
+    "lib/python3.6/site-packages/cvxopt/lapack.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/misc.py",
+    "lib/python3.6/site-packages/cvxopt/misc_solvers.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/cvxopt/modeling.py",
+    "lib/python3.6/site-packages/cvxopt/msk.py",
+    "lib/python3.6/site-packages/cvxopt/printing.py",
+    "lib/python3.6/site-packages/cvxopt/solvers.py",
+    "lib/python3.6/site-packages/cvxopt/umfpack.cpython-36m-x86_64-linux-gnu.so"
+  ],
+  "fn": "cvxopt-1.2.0-py36h2c4e229_0.conda",
+  "legacy_bz2_md5": "17601297442075294934c0cabb7b4d1f",
+  "legacy_bz2_size": 551644,
+  "license": "GPL 3",
+  "link": {
+    "source": "/home/cksgh8511/anaconda3/pkgs/cvxopt-1.2.0-py36h2c4e229_0",
+    "type": 1
+  },
+  "md5": "aa3bb9dfa18e5924308254cfd6e53fb7",
+  "name": "cvxopt",
+  "package_tarball_full_path": "/home/cksgh8511/anaconda3/pkgs/cvxopt-1.2.0-py36h2c4e229_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "c8352256a7bdc9902e521e0b301cf078c5fa24fa85bcf54483fba98b469c0ce5",
+        "sha256_in_prefix": "c8352256a7bdc9902e521e0b301cf078c5fa24fa85bcf54483fba98b469c0ce5",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "afbdce8ca9abbec57147c694de2ed85111609a1e33ae174f5ce24a5a8175f3c6",
+        "sha256_in_prefix": "afbdce8ca9abbec57147c694de2ed85111609a1e33ae174f5ce24a5a8175f3c6",
+        "size_in_bytes": 42017
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt-1.2.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "21ab4b9ddf979eaebf03abfa10dfe5a52f310ece1fb44065a59c007c31e7267e",
+        "sha256_in_prefix": "21ab4b9ddf979eaebf03abfa10dfe5a52f310ece1fb44065a59c007c31e7267e",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0c7f4f485566f487cae692df9de10c2a1f16a701afcb99e801b61c2755ef9e2f",
+        "sha256_in_prefix": "0c7f4f485566f487cae692df9de10c2a1f16a701afcb99e801b61c2755ef9e2f",
+        "size_in_bytes": 9452
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad7bcde1206d47a829eaa463896e5c0527e4ec61c7c6788ed0559f890d46cdcf",
+        "sha256_in_prefix": "ad7bcde1206d47a829eaa463896e5c0527e4ec61c7c6788ed0559f890d46cdcf",
+        "size_in_bytes": 9016
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/_version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "59187717cd5cdf9f513c7f0bef435a059ae17759c4e68878a01134b5990c38d1",
+        "sha256_in_prefix": "59187717cd5cdf9f513c7f0bef435a059ae17759c4e68878a01134b5990c38d1",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/coneprog.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e40a471f6d47aee128597a895f4b0efe969884412ce3a9db1370022d2fae223",
+        "sha256_in_prefix": "9e40a471f6d47aee128597a895f4b0efe969884412ce3a9db1370022d2fae223",
+        "size_in_bytes": 123761
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/cvxprog.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "846a9649ee85d133a11993b979676dcb2bcdca85269fba8463a568b46e289fd4",
+        "sha256_in_prefix": "846a9649ee85d133a11993b979676dcb2bcdca85269fba8463a568b46e289fd4",
+        "size_in_bytes": 58323
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/info.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7474aff0dd300da95186ade7436f66a5149a2248c3801b0ac5b5e1bf87f21ad",
+        "sha256_in_prefix": "a7474aff0dd300da95186ade7436f66a5149a2248c3801b0ac5b5e1bf87f21ad",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/misc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff4d02acfb71b0a82ccc9ddd9680bda040723ef8bbc3eef758f5488262b64e14",
+        "sha256_in_prefix": "ff4d02acfb71b0a82ccc9ddd9680bda040723ef8bbc3eef758f5488262b64e14",
+        "size_in_bytes": 36330
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/modeling.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "59051e4ff8007dccf38705279f06740decec74cb18a279933c53416c2d48aefc",
+        "sha256_in_prefix": "59051e4ff8007dccf38705279f06740decec74cb18a279933c53416c2d48aefc",
+        "size_in_bytes": 78360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/msk.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce96aeac928a992304475b6beca8b4fb24a05c7afe1504d005bfa195025dc566",
+        "sha256_in_prefix": "ce96aeac928a992304475b6beca8b4fb24a05c7afe1504d005bfa195025dc566",
+        "size_in_bytes": 28614
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/printing.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0bcf1f103840723468087ae5878d2ad1b74aabee296cb26fd1eafd052c876667",
+        "sha256_in_prefix": "0bcf1f103840723468087ae5878d2ad1b74aabee296cb26fd1eafd052c876667",
+        "size_in_bytes": 4902
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/__pycache__/solvers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "af7372f81c980e6670cebcb6d78a0fa2f1cf080113d95eea0f5b7fa5f140cc52",
+        "sha256_in_prefix": "af7372f81c980e6670cebcb6d78a0fa2f1cf080113d95eea0f5b7fa5f140cc52",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/_version.py",
+        "path_type": "hardlink",
+        "sha256": "f2ccb0ac7d74029e4cb96b1b844c8674dc85b39e9d6526e27f32324f584ea6be",
+        "sha256_in_prefix": "f2ccb0ac7d74029e4cb96b1b844c8674dc85b39e9d6526e27f32324f584ea6be",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/amd.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "61285f8a15dd8627254404fe8ffcd2e326240784a29b3e8ed40c8e04820df48b",
+        "sha256_in_prefix": "61285f8a15dd8627254404fe8ffcd2e326240784a29b3e8ed40c8e04820df48b",
+        "size_in_bytes": 14392
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/base.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fd2d0dcb845505a5345161fca85385bd81305ab3cffbc37f0f3d484c3fb6fa23",
+        "sha256_in_prefix": "fd2d0dcb845505a5345161fca85385bd81305ab3cffbc37f0f3d484c3fb6fa23",
+        "size_in_bytes": 221744
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/blas.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "86a545406c847faac22257028b1615ec82298824f89fb178d2aad04805b008ad",
+        "sha256_in_prefix": "86a545406c847faac22257028b1615ec82298824f89fb178d2aad04805b008ad",
+        "size_in_bytes": 135416
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/cholmod.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ac717ad7d581ad03fdaa18ecd344e90a92f90d7cf9fb6da2018d9de602dec1b1",
+        "sha256_in_prefix": "ac717ad7d581ad03fdaa18ecd344e90a92f90d7cf9fb6da2018d9de602dec1b1",
+        "size_in_bytes": 40192
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/coneprog.py",
+        "path_type": "hardlink",
+        "sha256": "50602dbca4656f982e0ae7c7912132fd4f5ae775524e0542b4b9faaf21c2da38",
+        "sha256_in_prefix": "50602dbca4656f982e0ae7c7912132fd4f5ae775524e0542b4b9faaf21c2da38",
+        "size_in_bytes": 168024
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/cvxprog.py",
+        "path_type": "hardlink",
+        "sha256": "24f14dcee6ae57466f57fb404568041b528aa291e66395fe734aa3b6e396f2ac",
+        "sha256_in_prefix": "24f14dcee6ae57466f57fb404568041b528aa291e66395fe734aa3b6e396f2ac",
+        "size_in_bytes": 84217
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/fftw.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5f8e51210c1685059be7aae970b4ea74a142f3d2bca271a5be62180541440aa0",
+        "sha256_in_prefix": "5f8e51210c1685059be7aae970b4ea74a142f3d2bca271a5be62180541440aa0",
+        "size_in_bytes": 35280
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/glpk.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8736e00130c02984ca5bdc6ca11d6fab336cdd1928bd80251a0e302d8f7d8cc0",
+        "sha256_in_prefix": "8736e00130c02984ca5bdc6ca11d6fab336cdd1928bd80251a0e302d8f7d8cc0",
+        "size_in_bytes": 33640
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/gsl.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "857ba88cdfffa43e34820a30a29c6a54b924ea9cd0e80e5f230cc02b5ea5e4f2",
+        "sha256_in_prefix": "857ba88cdfffa43e34820a30a29c6a54b924ea9cd0e80e5f230cc02b5ea5e4f2",
+        "size_in_bytes": 14632
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/info.py",
+        "path_type": "hardlink",
+        "sha256": "46091be6115161cd1b343a1df0ae403378264cc86b8c8c12e8bc54d10351030e",
+        "sha256_in_prefix": "46091be6115161cd1b343a1df0ae403378264cc86b8c8c12e8bc54d10351030e",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/lapack.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5e94e490e065df86323e0e8a1a477b8151c4290e786f7537620c899839fc7e33",
+        "sha256_in_prefix": "5e94e490e065df86323e0e8a1a477b8151c4290e786f7537620c899839fc7e33",
+        "size_in_bytes": 252920
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/misc.py",
+        "path_type": "hardlink",
+        "sha256": "cc9dcb6761a67e593b0953cd8290e1114ce4186ae360848c73cad3739911ad87",
+        "sha256_in_prefix": "cc9dcb6761a67e593b0953cd8290e1114ce4186ae360848c73cad3739911ad87",
+        "size_in_bytes": 54948
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/misc_solvers.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "50683384d688cb51502df9208d7e42024f1a68eac275b03a354c210a09b747a1",
+        "sha256_in_prefix": "50683384d688cb51502df9208d7e42024f1a68eac275b03a354c210a09b747a1",
+        "size_in_bytes": 34272
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/modeling.py",
+        "path_type": "hardlink",
+        "sha256": "873c840b4100b5a7ff918a83f9f2c09c0ff921e9c22ef76dbcd238d126592fdf",
+        "sha256_in_prefix": "873c840b4100b5a7ff918a83f9f2c09c0ff921e9c22ef76dbcd238d126592fdf",
+        "size_in_bytes": 101063
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/msk.py",
+        "path_type": "hardlink",
+        "sha256": "1dcb032b3f4fe6f89e88391c9a25b950535424b089fcf46fa21219f28a09b182",
+        "sha256_in_prefix": "1dcb032b3f4fe6f89e88391c9a25b950535424b089fcf46fa21219f28a09b182",
+        "size_in_bytes": 37186
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/printing.py",
+        "path_type": "hardlink",
+        "sha256": "7d94361e632534dc2dc758f69fd1e11bb9f9fbeb2cf8c3deeb383b4d5b6db48f",
+        "sha256_in_prefix": "7d94361e632534dc2dc758f69fd1e11bb9f9fbeb2cf8c3deeb383b4d5b6db48f",
+        "size_in_bytes": 5483
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/solvers.py",
+        "path_type": "hardlink",
+        "sha256": "ba0ac32fe0af7d2a0025ef3fa56817ea357a4a0c565d203e40553996010bfe0c",
+        "sha256_in_prefix": "ba0ac32fe0af7d2a0025ef3fa56817ea357a4a0c565d203e40553996010bfe0c",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cvxopt/umfpack.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b7b204028449a7c82a342ca7a1423d029193f695a43daf78e20c35e2d42b983a",
+        "sha256_in_prefix": "b7b204028449a7c82a342ca7a1423d029193f695a43daf78e20c35e2d42b983a",
+        "size_in_bytes": 24872
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f15623dbf9e529906292b72979d6fe467a4e28877476ad0ddceeaf0447042ad7",
+  "size": 489505,
+  "subdir": "linux-64",
+  "timestamp": 1528997706614,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cvxopt-1.2.0-py36h2c4e229_0.conda",
+  "version": "1.2.0"
+}
