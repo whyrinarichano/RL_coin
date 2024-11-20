@@ -35,7 +35,7 @@ def build_parser():
                         help="names that will shown in the figure caption or table header")
     parser.add_argument("--format", dest="format", default="raw",
                         help="format of the table printed")
-    parser.add_argument("--device", dest="device", default="cpu",
+    parser.add_argument("--device", dest="device", default="gpu",
                         help="device to be used to train")
     parser.add_argument("--folder", dest="folder", type=int,
                         help="folder(int) to load the config, neglect this option if loading from ./pgportfolio/net_config")
