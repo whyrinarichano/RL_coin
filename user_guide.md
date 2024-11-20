@@ -136,7 +136,9 @@ ons       1.000231      0.217216          1144              1360            731 
 
 ##파이썬
 conda install python = 3.6
+
 ##아나콘다용 텐서플로우 설치안하면 안됨;;
+
 conda install anaconda:tensorflow=1.0.0
 conda install contango::tflearn =0.3.2
 conda install pympler = 0.5
